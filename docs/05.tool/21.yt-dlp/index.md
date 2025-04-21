@@ -1,0 +1,62 @@
+---
+title: yt-dlp
+date: 2025-02-15 18:05:57
+permalink: /pages/80d479/
+categories:
+  - tool
+tags:
+  - tool
+  - yt-dlp
+---
+
+## 安装和升级
+
+使用 Windows 操作系统的用户：
+
+```sh
+winget install yt-dlp
+winget upgrade yt-dlp
+```
+
+20250414 升级尝试：
+
+```sh
+yt-dlp -U
+Current version: stable@2025.01.26 from yt-dlp/yt-dlp
+Latest version: stable@2025.03.31 from yt-dlp/yt-dlp
+Current Build Hash: 423eec9b60ab7910d97eb74cdb5daea90128850752d4aad6ccabaf8648d6387c
+Updating to stable@2025.03.31 from yt-dlp/yt-dlp ...
+Updated yt-dlp to stable@2025.03.31 from yt-dlp/yt-dlp
+```
+
+## 基本使用
+
+### 下载视频
+
+```sh
+yt-dlp [视频链接]
+```
+
+### 下载音频
+
+如果只想下载音频，可以使用-x参数：
+
+```sh
+yt-dlp -x [视频链接]
+```
+
+如果有音频文件，会直接下载；如果没有，则下载视频，然后通过 FFmpeg 转换成音频文件，最后自动删除视频文件。
+
+### 下载字幕
+
+先查看视频有哪些字幕：
+
+```sh
+yt-dlp --list-subs [视频链接]
+```
+
+下载特定语言的字幕（不下载视频）：
+
+```sh
+yt-dlp --write-subs --sub-langs [语言代码] --skip-download [视频链接]
+```

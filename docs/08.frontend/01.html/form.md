@@ -1,0 +1,221 @@
+---
+title: 表单 form
+date: 2024-05-16 00:18:46
+permalink: /pages/746120/
+categories: 
+  - frontend
+tags: 
+  - frontend
+  - html
+---
+
+## form 标签
+
+在 HTML 中，form 标签被用于定义表单域，即创建一个表单，以实现用户信息的收集和传递，form 中的所有内容都会被提交给服务器。
+
+| 属性              | 说明                                                                                                                                                                                                                                                                |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `action="URL"`    | 规定当提交表单时向何处发送表单数据                                                                                                                                                                                                                                  |
+| `accept-charset`  | 规定服务器可处理的表单数据字符集                                                                                                                                                                                                                                    |
+| `method="get      | post"`                                                                                                                                                                                                                                                              | 规定用于发送 form-data 的 HTTP 方法                                                    |
+| `enctype`         | 规定在发送表单数据之前如何对其进行编码<br>（1）`application/x-www-form-urlencoded`<br>（2）`multipart/form-data`<br>（3）`text/plain`                                                                                                                               |
+| `name`            | 规定表单的名称                                                                                                                                                                                                                                                      |
+| `target`          | 规定在何处打开 action URL<br>（1）`_self`：默认；在相同的框架中打开被链接文档<br>（2）`_blank`：在新窗口中打开被链接文档<br>（3）`_parent`：在父框架集中打开被链接文档<br>（4）`_top`：在整个窗口中打开被链接文档<br>（5）`framename`：在指定的框架中打开被链接文档 |
+| `autocomplete="on | off"`                                                                                                                                                                                                                                                               | 是否启用表单的自动完成功能；根据用户之前输入的值自动填写值 <Badge text="HTML5 新增" /> |
+| `novalidate`      | 如果已设置，它规定提交时不应验证表单数据 <Badge text="HTML5 新增" />                                                                                                                                                                                                |
+
+## input 标签
+
+input 标签用于搜集用户信息。根据不同的 type 属性值，输入字段拥有很多种形式。输入字段可以是文本字段、复选框、掩码后的文本控件、单选按钮、按钮等等。
+
+| 属性                    | 说明                                                             |
+| ----------------------- | ---------------------------------------------------------------- |
+| `type`                  | 用于指定不同的控件类型，取值有多种                               |
+| `name`                  | 控件的名称，属性值由用户自定义                                   |
+| `value`                 | input 控件中的默认文本值，属性值由用户自定义                     |
+| `placeholder`           | 规定帮助用户填写输入字段的提示                                   |
+| `autocomplete`          | 规定是否使用输入字段的自动完成功能；取值：on 或 off              |
+| `autofocus="autofocus"` | 规定输入字段在页面加载时是否获得焦点；不适用于 type="hidden"     |
+| `checked="checked"`     | 规定此 input 元素首次加载时应当被选中                            |
+| `multiple="multiple"`   | 如果使用该属性，则允许一个以上的值                               |
+| `readonly="readonly"`   | 规定输入字段为只读                                               |
+| `required="required"`   | 指示输入字段的值是必需的                                         |
+| `disabled="disabled"`   | 当 input 元素加载时禁用此元素                                    |
+| `width`                 | 定义 input 字段的宽度；适用于 type="image"                       |
+| `height`                | 定义 input 字段的高度；适用于 type="image"                       |
+| `max`                   | 规定输入字段的最大值                                             |
+| `min`                   | 规定输入字段的最小值                                             |
+| `maxlength`             | 规定输入字段中的字符的最大长度                                   |
+| `minlength`             | 规定输入字段中所需的最小字符数                                   |
+| `size`                  | 定义输入字段的宽度                                               |
+| `src`                   | 定义以提交按钮形式显示的图像的 URL                               |
+| `alt`                   | 定义图像输入的替代文本                                           |
+| `align`                 | 规定图像输入的对齐方式；不赞成使用                               |
+| `list`                  | 引用包含输入字段的预定义选项的 datalist                          |
+| `pattern`               | 规定输入字段的值的模式或格式（正则模式）                         |
+| `step`                  | 规定输入字的的合法数字间隔                                       |
+| `accept`                | 规定通过文件上传来提交的文件的类型                               |
+| `form`                  | 规定输入字段所属的一个或多个表单                                 |
+| `formaction`            | 覆盖表单的 action 属性；适用于 type="submit" 和 type="image"     |
+| `formenctype`           | 覆盖表单的 enctype 属性；适用于 type="submit" 和 type="image"    |
+| `formmethod`            | 覆盖表单的 method 属性；适用于 type="submit" 和 type="image"     |
+| `formnovalidate`        | 覆盖表单的 novalidate 属性；适用于 type="submit" 和 type="image" |
+| `formtarget`            | 覆盖表单的 target 属性；适用于 type="submit" 和 type="image"     |
+
+### type 类型
+
+| type 类型        | 说明                                                           |
+| ---------------- | -------------------------------------------------------------- |
+| `text`           | 定义单行的输入字段，用户可在其中输入文本。默认宽度为 20 个字符 |
+| `password`       | 定义密码字段。该字段中的字符被掩码                             |
+| `radio`          | 定义单选按钮                                                   |
+| `checkbox`       | 定义复选框                                                     |
+| `submit`         | 定义提交按钮。提交按钮会把表单数据发送到服务器                 |
+| `reset`          | 定义重置按钮。重置按钮会清除表单中的所有数据                   |
+| `button`         | 定义可点击按钮（多数情况下，用于通过 JavaScript 启动脚本）     |
+| `image`          | 定义图像形式的提交按钮                                         |
+| `file`           | 定义输入字段和 "浏览"按钮，供文件上传                          |
+| `hidden`         | 定义隐藏的输入字段                                             |
+| `email`          | 限制用户输入必须为 email 类型                                  |
+| `url`            | 限制用户输入必须为 URL 类型                                    |
+| `tel`            | 限制用户输入必须为手机号                                       |
+| `color`          | 生成一个颜色选择表单                                           |
+| `search`         | 搜索框（体现语义化）                                           |
+| `number`         | 限制用户输入必须为数字类型                                     |
+| `range`          | 自由拖动滑块                                                   |
+| `date`           | 限制用户输入必须为日期类型（年 月 日）                         |
+| `month`          | 限制用户输入必须为月类型（月 年）                              |
+| `week`           | 限制用户输入必须为周类型（星期 年）                            |
+| `time`           | 限制用户输入必须为时间类型（小时 分钟）                        |
+| `datetime`       | 限制用户输入必须为时间类型（时间）；需要手动输入具体时间       |
+| `datetime-local` | 允许用户选择日期和时间（无时区）                               |
+
+## select 标签
+
+### select 属性
+
+| select 属性             | 说明                                 |
+| ----------------------- | ------------------------------------ |
+| `autofocus="autofocus"` | 规定在页面加载后文本区域自动获得焦点 |
+| `disabled="disabled"`   | 规定禁用该下拉列表                   |
+| `multiple="multiple"`   | 规定可选择多个选项                   |
+| `required="required"`   | 规定文本区域是必填的                 |
+| `name`                  | 规定下拉列表的名称                   |
+| `size`                  | 规定下拉列表中可见选项的数目         |
+| `form`                  | 规定文本区域所属的一个或多个表单     |
+
+### option 属性
+
+| option 属性           | 说明                                           |
+| --------------------- | ---------------------------------------------- |
+| `value`               | 定义送往服务器的选项值                         |
+| `selected="selected"` | 规定选项（在首次显示在列表中时）表现为选中状态 |
+| `disabled="disabled"` | 规定此选项应在首次加载时被禁用                 |
+| `label`               | 定义当使用 optgroup 时所使用的标注             |
+
+### optgroup 属性
+
+| optgroup 属性         | 说明                                                |
+| --------------------- | --------------------------------------------------- |
+| `label`               | 为选项组规定描述 <Badge text="必需" type="error" /> |
+| `disabled="disabled"` | 规定禁用该选项组                                    |
+
+### 代码案例
+
+```html
+<select>
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+```
+
+## textarea 标签
+
+| 属性                  | 说明                                                                                                                                                                                                                         |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `rows`                | 规定文本区内的可见行数                                                                                                                                                                                                       |
+| `cols`                | 规定文本区内的可见宽度                                                                                                                                                                                                       |
+| `placeholder`         | 规定描述文本区域预期值的简短提示                                                                                                                                                                                             |
+| `maxlength`           | 规定文本区域的最大字符数                                                                                                                                                                                                     |
+| `name`                | 规定文本区的名称                                                                                                                                                                                                             |
+| `autofocus`           | 规定在页面加载后文本区域自动获得焦点                                                                                                                                                                                         |
+| `disabled="disabled"` | 规定禁用该文本区                                                                                                                                                                                                             |
+| `readonly="readonly"` | 规定文本区为只读                                                                                                                                                                                                             |
+| `required="required"` | 规定文本区域是必填的                                                                                                                                                                                                         |
+| `form`                | 规定文本区域所属的一个或多个表单                                                                                                                                                                                             |
+| `wrap`                | 规定当在表单中提交时，文本区域中的文本如何换行<br>（1）`hard`：当在表单中提交时，textarea 中的文本不换行。默认值<br>（2）`soft`：当在表单中提交时，textarea 中的文本换行（包含换行符）；当使用 "hard" 时，必须规定 cols 属性 |
+
+```html
+<textarea rows="显示的行数" cols="每行中的字符数" placeholder="..." maxlength="50">
+  文本内容
+</textarea>
+```
+
+## button 按钮
+
+| 属性                    | 说明                                                              |
+| ----------------------- | ----------------------------------------------------------------- |
+| `type`                  | 规定按钮的类型；取值：button、reset、submit                       |
+| `name`                  | 规定按钮的名称                                                    |
+| `value`                 | 规定按钮的初始值；提交按钮的初始值。可由脚本进行修改              |
+| `autofocus="autofocus"` | 规定当页面加载时按钮应当自动地获得焦点                            |
+| `disabled="disabled"`   | 规定应该禁用该按钮                                                |
+| `form`                  | 规定按钮属于一个或多个表单                                        |
+| `formaction`            | 覆盖 form 元素的 action 属性：该属性与 type="submit" 配合使用     |
+| `formenctype`           | 覆盖 form 元素的 enctype 属性；该属性与 type="submit" 配合使用    |
+| `formmethod`            | 覆盖 form 元素的 method 属性；该属性与 type="submit" 配合使用     |
+| `formnovalidate`        | 覆盖 form 元素的 novalidate 属性；该属性与 type="submit" 配合使用 |
+| `formtarget`            | 覆盖 form 元素的 target 属性；该属性与 type="submit" 配合使用     |
+
+## label 标签
+
+| 属性            | 说明                                |
+| --------------- | ----------------------------------- |
+| `for="id"`      | 规定 label 绑定到哪个表单元素       |
+| `form="formid"` | 规定 label 字段所属的一个或多个表单 |
+
+```html
+<form>
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="male" />
+</form>
+```
+
+## datalist 标签
+
+datalist 标签定义选项列表；请与 input 元素配合使用该元素，来定义 input 可能的值；datalist 及其选项不会被显示出来，它仅仅是合法的输入值列表。
+
+```html
+<form action="/action_page.php">
+  <input list="browsers" name="browser" />
+  <datalist id="browsers">
+    <option value="Internet Explorer"></option>
+    <option value="Firefox"></option>
+    <option value="Chrome"></option>
+    <option value="Opera"></option>
+    <option value="Safari"></option>
+  </datalist>
+</form>
+```
+
+## fieldset 标签
+
+fieldset 元素可将表单内的相关元素分组；当一组表单元素放到 fieldset 标签内时，浏览器会以特殊方式来显示它们，它们可能有特殊的边界、3D 效果，或者甚至可创建一个子表单来处理这些元素。
+
+- legend 标签为 fieldset 元素定义标题
+
+```html
+<form>
+  <fieldset>
+    <legend>健康信息</legend>
+    身高：<input type="text" /> 体重：<input type="text" />
+  </fieldset>
+</form>
+```

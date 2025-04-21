@@ -1,0 +1,12 @@
+{
+  "embeddedLanguageFormatting": "off",
+  "overrides": [
+    { "files": ".prettierrc", "options": { "parser": "json" } },
+    {
+      "files": ["*.html", "*.css"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}

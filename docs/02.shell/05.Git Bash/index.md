@@ -1,0 +1,60 @@
+---
+title: Git Bash
+date: 2025-01-12 08:58:46
+permalink: /pages/ea77db/
+categories: 
+  - shell
+tags: 
+  - shell
+  - Git Bash
+---
+
+At its core, Git is a set of command line utility programs that are designed to execute on a Unix style command-line environment. Modern operating systems like Linux and macOS both include built-in Unix command line terminals. This makes Linux and macOS complementary operating systems when working with Git. Microsoft Windows instead uses Windows command prompt, a non-Unix terminal environment.
+
+Git 是 Linux 的缔造者开发出的一款分布式版本控制系统，最初是为了 Linux 系统的多人协同开发，后来逐渐风靡全球，如今已成为最先进最流行的分布式版本控制系统。
+
+In Windows environments, Git is often packaged as part of higher level GUI applications. GUIs for Git may attempt to abstract and hide the underlying version control system primitives. This can be a great aid for Git beginners to rapidly contribute to a project. Once a project's collaboration requirements grow with other team members, it is critical to be aware of how the actual raw Git methods work. This is when it can be beneficial to drop a GUI version for the command line tools. Git Bash is offered to provide a terminal Git experience.
+
+最初 Git 只支持 Linux 操作系统，后来 Windows 系统也慢慢支持了，只不过这种支持并不是 Git 官方所为，而是微软团队进行移植整合的产品。
+
+- Git 的官网是 https://git-scm.com，Git 组织主要负责维护 git 项目和 git-scm 网站
+- Git for Windows 的官网是 https://gitforwindows.org/，Git for Windows 组织项目明显多了不少，不仅要维护 Git 还要提供移植 Git 所需的一系列后勤支持
+- Git 支持 Windows 本身的行为来源于 Git for Windows 组织，并不是 Git 天然支持的功能
+- Git for Windows 组织项目大部分来源于其他开源项目，也就是说将 Git 移植到 Windows 系统背后需要很多技术支持
+- Git 本身是 Linux 系统的软件，所以类 Linux 系统的 macOS 是天然支持的，而差异比较大的 Windows 无法天然支持，所以 Git for Windows 组织移植了 Git，从而实现了变相支持
+
+## What is Git Bash?
+
+Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. Bash is an acronym for Bourne Again Shell. A shell is a terminal application used to interface with an operating system through written commands. Bash is a popular default shell on Linux and macOS. Git Bash is a package that installs Bash, some common bash utilities, and Git on a Windows operating system.
+
+## How to Install Git Bash
+
+Git Bash comes included as part of the [Git For Windows](https://gitforwindows.org/) package. Download and install Git For Windows like other Windows applications. Once downloaded find the included `.exe` file and open to execute Git Bash.
+
+简单说，Git Bash 提供了两类命令：
+
+- `git add`, `git commit` 之类的 git 操作命令，这一类命令在 PowerShell 100% 可以操作
+- `ssh`, `scp`, `cat`, `find` 之类的 Shell 命令，这一类命令在 PowerShell 99% 可以
+
+## How to Upgrade Git on Windows
+
+Once open, run this command:
+
+```sh
+git --verson
+Git for Windows 2.44.0.windows.1 (64-bit)
+```
+
+If you're using any version from after 2.16.1, then run this command in Command Prompt or PowerShell:
+
+```sh
+git update-git-for-windows
+Update 2.47.1.windows.1 is available
+Download and install Git for Windows v2.47.1.windows.1 [N/y]?
+```
+
+## Git Bash Commands
+
+Git Bash is packaged with additional commands that can be found in the `/usr/bin` directory of the Git Bash emulation. Git Bash can actually provide a fairly robust shell experience on Windows. Git Bash comes packaged with the following shell commands which are outside the scope of this document: `ssh`, `scp`, `cat`, `find`.
+
+In addition the previously discussed set of Bash commands, Git Bash includes the full set of Git core commands discussed through out this site. Learn more at the corresponding documentation pages for `git clone`, `git commit`, `git checkout`, `git push`, and more.

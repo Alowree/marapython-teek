@@ -1,0 +1,35 @@
+---
+title: WezTerm
+date: 2025-01-18 18:05:00
+permalink: /pages/536dc4/
+categories: 
+  - tool
+tags: 
+  - tool
+  - Wezterm
+---
+
+为什么要尝试一下 WezTerm 这个终端？因为使用了一年多的 Windows Terminal 它竟然不支持粗体！
+
+Neovim 无法单独配置字体，使用的是终端配置的字体。在 Windows Terminal 中配置使用 MesloLGS Nerd Font Mono 字体，该字体系列包含正常、斜体、粗体、粗斜体四种样式。正常的预期，我们应该有四种字体样式显示。然而，由于技术原因，粗体和粗斜体在 Windows Terminal 这个终端内无法成功渲染。
+
+比如下面示例文字的后面两行，当在 Windows Terminal 终端内运行 Neovim 时，是无法渲染成粗体和粗斜体的。与此相对，当在 WezTerm 终端内运行 Neovim 时，英文字符的粗体和粗斜体都可以成功渲染。
+
+```md
+- regular
+- _italic_
+- **bold**
+- **_bold italic_**
+- 正常中文
+- _斜体中文_
+- **粗体中文**
+- ***粗斜体***
+```
+
+但是，此时生效的中文字体是什么字体？
+
+关于 Windows Terminal 内，斜体和粗体设置的更新：
+
+`Settings >> Defaults >> Appearance >> Text Formatting >> Intense text style >> None`，把默认设定的 `None` 更改成 `Bold font` 之后，英文的粗体也可以正常显示了。
+
+而此时的问题，在 WezTerm 终端下，斜体中文和粗体中文无法正常显示。暂时切回 Windows Terminal 使用。

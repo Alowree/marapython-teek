@@ -1,0 +1,262 @@
+---
+title: Vim Introduction
+date: 2024-07-08 09:11:20
+permalink: /pages/47685c/
+categories:
+  - editor
+tags:
+  - editor
+  - Vim
+---
+
+## Vim 是什么
+
+Vim - the ubiquitous text editor
+
+Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+
+Vim is rock stable and is continuously being developed to become even better. Among its features are:
+
+- persistent, multi-level undo tree
+- extensive plugin system
+- support for hundreds of programming languages and file formats
+- powerful search and replace
+- integrates with many tools
+
+Vim 是一个多模态的文本编辑器。对于大多数的普通用户，在接触 Vim 之前使用的编辑器，基本都是单模态编辑器，对应的是 Vim 的「插入」模式。Vim 还有以下特点：
+
+- 基于 TUI (Terminal User Interface)
+- 熟练用户重度依赖键盘，少用、不用鼠标
+- 高度可定制化，个人风格明显
+- 编辑纯英文文本可以像闪电一样快速
+- 编辑中文文本稍稍差了那么一点意思，频繁的中英输入切换和 Vim 的模态转换，容易产生击键错误，让人有「利刃在手、刀未出鞘」的迟滞感
+
+## Vim 能做什么
+
+- 可以使用 Vim 来写 Markdown 吗？
+  - vim-markdown 插件
+- 可以使用 Vim 来管理文件夹项目吗？
+  - 内置的 Netrw 文件管理器
+  - 启用了 `wildmenu` 的 `:e` 命令
+  - NEEDTree
+  - Vinegar
+  - CtrlP 插件
+
+Yes, it can. 这可能是当你问起任何关于“Vim 能做...吗？”的答案。
+
+## 安装 Vim
+
+下载和安装 Vim 9.1 至 `C:\Program Files\Vim` 位置，选择 English 为安装语言。
+
+但不知何故（可能因为操作系统是中文版 Windows），安装成功之后，进入 Vim 界面仍然存在中文提示。例如，当进入 Insert mode 时，底部命令行的状态提示显示为 `--插入--`。
+
+若要将 Vim 界面语言设置为英文，需要在配置文件内 `$VIM\vimrc` 添加如下配置：
+
+```vim
+" set the menu and the message to English
+set langmenu=en_US
+let $LANG='en_US'
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+```
+
+## 添加 Vim 到环境变量
+
+把 Vim 添加到环境变量，是为了在 PowerShell 命令行终端直接运行 `vim <path\filename>` 就可以直接打开或创建一个文件。我的 Vim 直接安装在以下路径：
+
+```ps
+C:\Program Files\Vim\vim91
+```
+
+## Vim 配置文件
+
+查看 Vim 版本和 vimrc 配置文件的方法：
+
+```vim
+:version
+```
+
+查看 Vim 安装路径和配置路径的方法：
+
+```vim
+:echo $VIM           " C:\Program Files\Vim
+:echo $HOME          " C:\Users\Alowr
+:echo $VIMRUNTIME    " C:\Program Files\Vim\vim91
+```
+
+以上三个目录分别简称为：Vim 目录、用户目录、Vim 运行时目录。
+
+Vim 的配置文件安装在 Vim 目录下。例如，我的 Vim 配置文件在 Vim 安装完成之后，自动生成的默认位置在 `C:\Program Files\Vim\_vimrc`。每次修改、更新过配置之后，保存配置文件之后也并不会让修改立即生效。要么关闭重启 Vim，要么在 Vim 内直接运行命令 `:source $VIM\_vimrc` 重载配置文件：
+
+```vim
+:source $VIM\_vimrc
+```
+
+这样，`_vimrc` 内修改更新过的配置内容就会重载和生效了。
+
+## 2025-01-13 重新安装 Vim
+
+按照 https://github.com/amix/vimrc 的配置教程，这次选择创建配置文件 `~\.vimrc`，也就是把配置文件放在用户目录下。
+
+如果使用 Basic 版本，直接复制粘贴 basic.vim 内的配置至 `~\.vimrc` 即可。
+
+如果使用 Awesome 版本，运行命令：
+
+```sh
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+```
+
+运行之后，原先配置文件内的代码会被强制刷新，个人的配置文件重新创建至 `~\.vim_runtime\my_configs.vim`，
+
+此时默认的 colorscheme 为 peaksea，不是特别美观。
+
+## 创建文件
+
+在 PowerShell 就可以直接运行 `vim <filename.md>` 用于创建一个新的 Markdown 文件了。
+
+In PowerShell, type `vim foo.txt bar.txt zar.txt` will open 3 files, 1 existing file and 2 newly created files.
+
+- `:n` will toggle to the 2nd file.
+- `:args` will show the current active file.
+
+如果当前状态已经在 Vim 里面：
+
+- `:e <path\filename>` creates a new file with a name
+- `:enew` will create an empty buffer - a new file without a name
+- `:Ex <directory>` lets you browse for the file from the given directory
+- `:Ex` on its own will open the pwd
+
+## 多文件操作
+
+- `:e <path\filename>` 打开或创建一个文件
+- `:ls` `:buffers` `:files` 这三个命令等效，都可查看现有的缓冲区列表
+- `:bn` 切换下一个已经打开的文件
+- `:bp` 切换上一个已经打开的文件
+- `:b1` 切换到缓冲区编号为 1 的文件
+- `:bd` 将一个缓冲区从打开的缓冲区列表中删除
+
+## 保存文件
+
+- `:w foo.txt` 把一个新创建的文件保存为 foo.txt
+- `:w` 把已经存在的文件更改之后保存
+- `:wq` 保存退出
+
+How can I see the full path of the current file?
+
+`<C—g>` will output the full path onto the last line.
+
+How can I edit multiple files in Vim?
+
+`:e <path/filename>` will put a new file to the buffer.
+
+## 退出文件
+
+- `:wq` or `ZZ`，保存退出当前 buffer
+- `:q!` 不保存退出 Vim
+- `:qa` 退出 Vim
+
+## 配置入门
+
+在 Windows 下，Vim 的配置文件 `C:\Program Files\Vim\_vimrc`。如果您在 Windows 上无法修改 `_vimrc` 文件，您可以尝试以下解决方案：
+
+以管理员身份运行记事本或其他文本编辑器：右键单击 `_vimrc` 文件，选择“属性”，然后单击“安全”。接着，单击“组或用户名”中的“Users”，再点击“编辑”。在“Users”权限中，选中“完全控制”，然后点击“确定”。
+
+### Remap Caps Lock to Esc
+
+Windows 10
+
+Win+R -> regedit -> HKEY_LOCAL_MACHINE -> SYSTEM -> CurrentControlSet -> Control -> Keyboard Layout -> 右键 “Keyboard Layout” -> “新建” -> “二进制值” -> 重命名 “新值 #1” 为 “Scancode Map” -> 右键 “Scancode Map” -> “修改” -> 输入值如下：
+
+00,00,00,00,
+00,00,00,00,
+03,00,00,00,
+3a,00,01,00,
+01,00,3a,00,
+00,00,00,00
+
+https://www.cnblogs.com/komean/p/12700100.html
+
+Mac mini macOS, remap Caps Lock to Escape
+
+Need to update on macOS to get a full path of the setting
+
+### Speed up your key repeat
+
+https://www.thewindowsclub.com/keyboard-repeat-rate-and-repeat-delay-in-windows-10
+
+## Learning Paths
+
+1. Practical Vim (Second Edition), Drew Neil, 2015
+2. Modern Vim, Drew Neil, 2018
+
+## 参考资料
+
+- [第九章、Vim 程式編輯器](https://linux.vbird.org/linux_basic/centos7/0310vi.php)
+- [Writing Markdown in Vim](https://codeinthehole.com/tips/writing-markdown-in-vim/)
+- [Vim 配置入门](https://ruanyifeng.com/blog/2018/09/vimrc.html)
+
+2025-03-17 update
+
+Now I have two versions of VIM91 installed, one using Windows installer (Vim and Gvim combined), the other being a byproduct of installing Zsh.
+
+GUI version
+
+- `C:/Program Files/Vim/vim91/vim.exe`
+- `C:/Program Files/Vim/vim91/`
+- ```sh
+  :echo $VIMRUNTIME
+  C:/Program Files/Vim/vim91/
+  ```
+
+TUI version
+
+- `C:/Program Files/Git/usr/bin/vim.exe`
+- `C:/Program Files/Git/usr/share/vim/vim91/`
+- ```sh
+  :echo $VIMRUNTIME
+  /usr/share/vim/vim91/
+  ```
+  Both Vim versions will source the same config file from `~/.vimrc`, but the GUI version does not source `~/.vim/colors/` for the additional themes added under this folder.
+
+## 自动格式化
+
+1. Add plugin in your `.vimrc` file
+
+   ```
+   Plug 'neoclide/coc-prettier'
+   ```
+
+2. Run vim command `:CocInstall coc-prettier`
+3. Run `:CocConfig` to open coc-settings.json (note this is json file, so everything is enclosed with a pair of curly braces) and add following
+
+   ```
+   {
+   // Require .prettierrc
+   "prettier.requireConfig": true,
+
+   // Tslint on save
+   "tslint.enable": true,
+   "tslint.autoFixOnSave": true,
+
+   // Run prettier (and others)
+   "coc.preferences.formatOnSaveFiletypes": [
+       "css",
+       "markdown",
+       "Markdown",
+       "javascript",
+       "javascriptreact",
+       "typescript",
+       "typescriptreact"
+     ]
+   }
+   ```
+
+Practical Vim
+Second Edition
+
+Edit Text at the
+Speed of Thought
+
+Drew Neil
+Foreword by Tim Pope
