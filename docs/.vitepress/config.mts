@@ -53,6 +53,14 @@ const teekConfig = defineTeekConfig({
     slogan: "道阻且长，行则将至；行而不辍，未来可期", // 博主签名
     shape: "square", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转
   },
+  vitePlugins: {
+    autoFrontmatter: true,
+    autoFrontmatterOption: {
+      globOptions: {
+        ignore: ["**/00.目录页/**", "**/*目录.md"],
+      },
+    },
+  },
 });
 
 // https://vitepress.dev/reference/site-config
@@ -114,7 +122,7 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/Alowree/marapython" },
+      { icon: "github", link: "https://github.com/Alowree/marapython-teek" },
     ],
 
     search: {

@@ -1,5 +1,10 @@
 ---
+date: 2025-04-06 09:40:27
+title: api-examples
 outline: deep
+permalink: /pages/5fa14f
+categories:
+  - VitePress
 ---
 
 # Runtime API Examples
@@ -36,12 +41,15 @@ const { site, theme, page, frontmatter } = useData()
 ## Results
 
 ### Theme Data
+
 <pre>{{ theme }}</pre>
 
 ### Page Data
+
 <pre>{{ page }}</pre>
 
 ### Page Frontmatter
+
 <pre>{{ frontmatter }}</pre>
 
 ## More

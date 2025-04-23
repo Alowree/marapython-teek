@@ -131,7 +131,5 @@ dist
 
 # vitepress
 docs/.vitepress/cache
-docs/.vitepress/dist
+docs/public
 
-# drawio
-*.bkp
