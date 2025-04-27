@@ -3,16 +3,23 @@
 # top-most EditorConfig file
 root = true
 
-# Unix-style newlines with a newline ending every file
+# Apply to all file types
 [*]
+
 charset = utf-8
+# Newline style (lf | cr | crlf)
 end_of_line = lf
 
-# insert_final_newline = true
+# Always insert a newline at the end
+insert_final_newline = true
 
 indent_style = space
 indent_size = 2
+
+max_line_lenght = 130
 trim_trailing_whitespce = true
 
+
 [*.md]
+max_line_lenght = off
 trim_trailing_whitespce = false

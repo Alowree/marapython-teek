@@ -1,7 +1,10 @@
 {
   "embeddedLanguageFormatting": "off",
   "overrides": [
-    { "files": ".prettierrc", "options": { "parser": "json" } },
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    },
     {
       "files": ["*.html", "*.css"],
       "options": {
