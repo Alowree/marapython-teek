@@ -175,6 +175,21 @@ Win+R -> regedit -> HKEY_LOCAL_MACHINE -> SYSTEM -> CurrentControlSet -> Control
 01,00,3a,00,
 00,00,00,00
 
+这次遇到了 Win 10 下面无法正常编辑注册表，使用以下变通方法：
+
+1、使用编辑软件 VS Code 保存以下文件，保存为 CapsLock2Esc.reg 文件；
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,01,00,01,00,3a,00,00,00,00,00
+```
+2、双击该文件，弹出框，选“是”；
+
+3、重启系统，完成。
+
 https://www.cnblogs.com/komean/p/12700100.html
 
 Mac mini macOS, remap Caps Lock to Escape
