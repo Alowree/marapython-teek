@@ -61,6 +61,13 @@ const teekConfig = defineTeekConfig({
       },
     },
   },
+  comment: {
+    provider: "twikoo", // 评论区提供者
+    // 评论区配置项，根据 provider 不同而不同，具体看对应官网的使用介绍
+    options: {
+      envId: "https://twikoo.marapython.com",
+    },
+  },
 });
 
 // https://vitepress.dev/reference/site-config
