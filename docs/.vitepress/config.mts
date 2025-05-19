@@ -8,7 +8,7 @@ const teekConfig = defineTeekConfig({
     name: "MaraPython", // Banner 标题，默认读取 vitepress 的 title 属性
     bgStyle: "fullImg", // Banner 背景风格：pure 为纯色背景，partImg 为局部图片背景，fullImg 为全屏图片背景
     pureBgColor: "#28282d", // Banner 背景色，bgStyle 为 pure 时生效
-    imgSrc: ["/img/26578153_1162.jpg", "/img/18954425_6053821.jpg"], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
+    imgSrc: ["/img/bg1.jpg", "/img/bg2.jpg"], // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
     imgInterval: 15000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
     imgShuffle: false, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
     imgWaves: true, // 是否开启 Banner 图片波浪纹，bgStyle 为 fullImg 时生效
@@ -19,7 +19,6 @@ const teekConfig = defineTeekConfig({
     descFontSize: "1.4rem", // 描述字体大小
     descStyle: "types", // 描述信息风格：default 为纯文字渲染风格（如果 description 为数组，则取第一个），types 为文字打印风格，switch 为文字切换风格
     description: [
-      "Success is not final, failure is not fatal: it is the courage to continue that counts. — Winston Churchill",
       "Your time is limited, so don’t waste it living someone else’s life. — Steve Jobs",
       "The way to get started is to quit talking and begin doing. — Walt Disney",
       "I find that the harder I work, the more luck I seem to have. — Thomas Jefferson",
@@ -51,7 +50,7 @@ const teekConfig = defineTeekConfig({
     name: "Alowree", // 博主昵称
     avatar: "img/avatar.jpg", // 博主头像
     slogan: "道阻且长，行则将至；行而不辍，未来可期", // 博主签名
-    shape: "square", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转
+    shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转
   },
   vitePlugins: {
     autoFrontmatter: true,
@@ -134,6 +133,10 @@ export default defineConfig({
 
     search: {
       provider: "local",
+    },
+    outline: {
+      level: [2, 4],
+      label: "文章目录",
     },
   },
   // 2. Features and Functions offered by Teek
