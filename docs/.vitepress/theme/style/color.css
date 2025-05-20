@@ -1,0 +1,75 @@
+/* Light mode */
+:root {
+  --vp-c-indigo-1: #4520e6;
+  --vp-c-indigo-2: #5356ff;
+  --vp-c-indigo-3: #1c3cf1;
+}
+/* Dark mode */
+.dark {
+  --vp-c-indigo-1: #8871ef;
+  --vp-c-indigo-2: #9580f3;
+  --vp-c-indigo-3: #7256f3;
+}
+
+:root {
+  --zero-theme: #11a8cd;
+  --zero-main: var(--zero-theme);
+  --zero-theme-op: #4259ef23;
+  --zero-theme-op-deep: #4259efdd;
+  --zero-theme-none: #4259ef01;
+  --zero-blue: #425aef;
+  --zero-red: #f04a63;
+  --zero-pink: #ff7c7c;
+  --zero-green: #57bd6a;
+  --zero-yellow: #c28b00;
+  --zero-yellow-op: #d99c001a;
+  --zero-orange: #e38100;
+  --zero-purple: #7a60d2;
+  --main-font-color: #363636;
+  --main-background-color: #f7f9fe;
+  --zero-reverse: #000;
+  --zero-mask-bg: rgba(255, 255, 255, 0.6);
+  --zero-mask-bg-deep: rgba(255, 255, 255, 0.85);
+  --zero-hover-text: var(--zero-main);
+  --zero-a-hover-bg: #f7f7fa;
+  --zero-light-text: var(--zero-main);
+  --zero-second-text: rgba(60, 60, 67, 0.8);
+  --para-color: var(--zero-reverse);
+  --zero-scrollbar: rgba(60, 60, 67, 0.4);
+  --zero-card-btn-bg: #edf0f7;
+  --zero-post-blockquote-bg: #fafcff;
+  --zero-post-tabs-bg: #f2f5f8;
+  --zero-second-bg: #f1f3f8;
+  --zero-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --zero-card-bg: #fff;
+  --zero-card-bg-op: var(--zero-black-op);
+  --zero-card-bg-none: rgba(255, 255, 255, 0);
+  --zero-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --zero-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --zero-card-border: #e3e8f7;
+  --zero-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --style-border: 1px solid var(--zero-card-border);
+  --style-border-always: 1px solid var(--zero-card-border);
+  --style-border-hover: 1px solid var(--zero-main);
+  --style-border-hover-always: 1px solid var(--zero-main);
+  --style-border-dashed: 1px dashed var(--zero-theme-op);
+  --style-border-forever: 2px solid var(--zero-main);
+  --vp-code-color: #222;
+  --vp-code-bg: #f8f8f8;
+  --table-th-bg-color: #575c61;
+  --table-th-font-color: #f3f3f3;
+  --table-border-color: var(--main-font-color);
+  --table-evenrow-color: var(--zero-second-bg);
+  --table-focusrow-color: var(--zero-scrollbar);
+}
+.dark {
+  --blockquote-border-left-color: #575c61;
+  --blockquote-bg-color: #1e1e20;
+  --vp-code-color: #c9def1;
+  --vp-code-bg: #313136;
+  --table-evenrow-color: var(--zero-scrollbar);
+  --table-focusrow-color: #1e1e20;
+}
+.VPSidebar {
+  background-color: var(--vp-c-bg) !important;
+}

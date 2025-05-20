@@ -1,0 +1,66 @@
+:root {
+  --blockquote-border-left-color: #e3e8f7;
+}
+
+.vp-doc h2 {
+  border-top: 1px dashed var(--vp-c-divider);
+}
+/** 引用块 **/
+.vp-doc blockquote {
+  margin: var(--blockquote-margin);
+  padding: 15px 20px 15px 16px;
+  border: 1px solid var(--blockquote-border-left-color);
+  border-left: 5px solid var(--blockquote-border-left-color);
+  background: var(--blockquote-background-color);
+  position: relative;
+}
+
+details {
+  margin: 1rem auto;
+  padding: 0 1rem;
+  position: relative;
+  border: 1px solid #78909c;
+  border-radius: 5px;
+  color: #263238;
+  transition: background-color 0.15s;
+}
+/* details > :last-child { */
+/*   margin-bottom: 1rem; */
+/* } */
+/* details[open] { */
+/*   background-color: #fff; */
+/* } */
+details[open]::before {
+  opacity: 0.6;
+}
+
+summary {
+  /* padding: 1rem 2em 1rem 0; */
+  display: block;
+  position: relative;
+  /* font-size: 1.33em; */
+  font-weight: bold;
+  cursor: pointer;
+}
+summary::before,
+summary::after {
+  width: 0.75em;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  content: "";
+  background-color: currentColor;
+  text-align: right;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease-in-out;
+}
+summary::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+[open] summary::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+summary::-webkit-details-marker {
+  display: none;
+}

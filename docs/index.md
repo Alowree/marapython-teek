@@ -6,7 +6,7 @@ hero:
   text:
   tagline: CLEAR WRITING IS THE KEY TO CLEAR THINKING
   image:
-    src: /images/index/ghost.png
+    src: /img/ghost.png
     alt: Marketing Analytics with Marathon and Python
   actions:
     - theme: brand

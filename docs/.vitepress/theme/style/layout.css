@@ -1,0 +1,91 @@
+/* Optimization for the article page to avoid element position glitches when scrollbar appears or disappears. */
+/* Browsers display scroll bars in the vertical direction whether or not any content is actually clipped. */
+/* This prevents scroll bars from appearing or disappearing when the content changes. */
+
+/* For Windows, force scrollbar to always show */
+/* Tested working well */
+html {
+  overflow-y: scroll;
+}
+
+/* For MacOS, create a permanent space for scrollbar */
+@supports (-moz-appearance: none) {
+  html {
+    scrollbar-width: thin;
+  }
+}
+
+/* Create space for scrollbar on WebKit browsers */
+@supports not (-moz-appearance: none) {
+  html {
+    margin-right: calc(100vw - 100%);
+  }
+}
+/*
+/* Adjustments for Large Screens: This media query applies styles when the viewport width is at least 1440 pixels. It adjusts the padding and width of the sidebar, navbar, and content areas to ensure proper spacing and alignment when a sidebar is present. */
+/* @media (min-width: 1440px) { */
+/* 侧边栏宽度 */
+/* .VPSidebar { */
+/*   padding-left: 2rem !important; */
+/*   width: var(--vp-sidebar-width) !important; */
+/* } */
+/* navbar-title 宽度 */
+/* .VPNavBar.has-sidebar .title { */
+/*   padding-left: 1rem !important; */
+/*   width: var(--vp-sidebar-width) !important; */
+/* } */
+/* navbar-content 宽度 */
+/* .VPNavBar.has-sidebar .content { */
+/*   padding-right: 2rem !important; */
+/*   padding-left: var(--vp-sidebar-width) !important; */
+/* } */
+/* content 宽度 */
+/*   .VPContent.has-sidebar { */
+/*     padding-right: 0 !important; */
+/*     padding-left: var(--vp-sidebar-width) !important; */
+/*   } */
+/* } */
+/* Adjustments for Medium Screens: This media query applies styles when the viewport width is at least 960 pixels. It hides the navbar divider, adds a bottom border to the wrapper, and adjusts the sidebar and navbar content padding to ensure consistent spacing, accounting for the scrollbar width. */
+/* @media (min-width: 960px) { */
+/* .VPNavBar > .divider {
+    display: none !important;
+  } */
+/* .VPNavBar.has-sidebar .divider { */
+/*   padding-left: 0 !important; */
+/* } */
+/* div.wrapper {
+    border-bottom: 1px solid var(--zero-theme-op);
+  } */
+
+/* .VPNavBar.has-sidebar .title { */
+/*   border-bottom: none; */
+/* } */
+/**/
+/* .VPSidebar { */
+/*   top: var(--vp-nav-height) !important; */
+/*   padding-top: unset !important; */
+/* } */
+
+/* Ensure consistent spacing regardless of scrollbar */
+/*   .VPNavBar.has-sidebar .content { */
+/*     padding-right: calc(32px + var(--scrollbar-width, 15px)) !important; */
+/*   } */
+/**/
+/*   .VPLocalNav.has-sidebar, */
+/*   .VPLocalNav.has-sidebar.empty { */
+/*     padding-right: calc(32px + var(--scrollbar-width, 15px)) !important; */
+/*   } */
+/* } */
+/* Main Content: This rule removes the maximum width restriction for the content container when the document has an aside (sidebar). */
+/* .VPDoc.has-aside .content-container { */
+/*   max-width: unset !important; */
+/* } */
+
+/* aside outline-marker */
+/* .outline-marker { */
+/*   width: 4px; */
+/* } */
+/* .outline-link:hover, */
+/* .outline-link.active { */
+/*   color: var(--vp-c-brand-1) !important; */
+/* } */
