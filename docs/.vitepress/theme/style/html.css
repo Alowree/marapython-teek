@@ -5,6 +5,14 @@
 .vp-doc h2 {
   border-top: 1px dashed var(--vp-c-divider);
 }
+
+.vp-doc strong {
+  font-family: "TsukuARdGothic Std Bold";
+}
+
+.outline-title {
+  font-family: "TsukuARdGothic Std Bold";
+}
 /** 引用块 **/
 .vp-doc blockquote {
   margin: var(--blockquote-margin);
