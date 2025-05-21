@@ -13,7 +13,7 @@
 .outline-title {
   font-family: "TsukuARdGothic Std Bold";
 }
-/** 引用块 **/
+/* 引用块 */
 .vp-doc blockquote {
   margin: var(--blockquote-margin);
   padding: 15px 20px 15px 16px;
@@ -23,6 +23,7 @@
   position: relative;
 }
 
+/* 折叠标签 */
 details {
   margin: 1rem auto;
   padding: 0 1rem;

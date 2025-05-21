@@ -59,6 +59,9 @@ const teekConfig = defineTeekConfig({
         ignore: ["**/00.目录页/**", "**/*目录.md"],
       },
     },
+    sidebarOption: {
+      collapsed: true, // 打开侧边栏 收缩/展开 功能
+    },
   },
   comment: {
     provider: "twikoo", // 评论区提供者
@@ -111,8 +114,8 @@ export default defineConfig({
         text: "前端",
 
         items: [
-          { text: "HTML", link: "/08.frontend/01.html/01.element.md" },
-          { text: "CSS", link: "/08.frontend/02.css/01.层叠、优先级和继承.md" },
+          { text: "HTML", link: "/pages/76b51d" },
+          { text: "CSS", link: "/pages/79c1f6" },
           {
             text: "JavaScript",
             link: "/08.frontend/03.javascript/01.语法基础.md",
@@ -131,7 +134,7 @@ export default defineConfig({
         text: "关于",
 
         items: [
-          { text: "本站", link: "/00.目录页/20.关于 - 目录.md" },
+          { text: "本站", link: "/pages/dbaccf" },
           { text: "开始", link: "/20.关于/20.关于 - 本站/02.本站 - 开始.md" },
           { text: "写作", link: "/20.关于/20.关于 - 本站/05.本站 - 文章.md" },
           {
@@ -140,6 +143,7 @@ export default defineConfig({
               { text: "分类", link: "/categories/" },
               { text: "标签", link: "/tags/" },
               { text: "归档", link: "/archives/" },
+              { text: "清单", link: "/articleOverview/" },
             ],
           },
         ],
