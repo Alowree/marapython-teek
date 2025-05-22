@@ -15,7 +15,7 @@ tk:
       # imgUrl: /img/
     - title: 开发工具
       description: 使用各种 Shell 终端工具软件
-      link: /01.terminal/01.Windows Terminal/
+      link: /pages/d858af/
       # imgUrl: /img/
 ## Following are VitePress default settings for index.md
 # hero:

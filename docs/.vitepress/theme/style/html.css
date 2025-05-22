@@ -2,17 +2,38 @@
   --blockquote-border-left-color: #e3e8f7;
 }
 
+/* h1-h6 headers */
 .vp-doc h2 {
   border-top: 1px dashed var(--vp-c-divider);
 }
 
-.vp-doc strong {
-  font-family: "TsukuARdGothic Std Bold";
+.vp-doc h3 {
+  margin: 32px 0 16px;
 }
 
-.outline-title {
-  font-family: "TsukuARdGothic Std Bold";
+/* You have to import font-awesome before use */
+
+/* .vp-doc h3::before { */
+/*   font-family: var(--fa-style-family, "Font Awesome 6 Free"); */
+/*   content: "\f5fd"; */
+/*   color: skyblue; */
+/*   margin-right: 0.4rem; */
+/* } */
+
+/* You have to import iconfont before use */
+
+.vp-doc h3::before {
+  margin-right: 0.2em;
+  font-family: "iconfont";
+  content: "\e67f";
+  font-size: 1.2em;
 }
+
+/* 文章目录 - 标题 */
+.outline-title[data-v-3b0608b7] {
+  font-size: 1.3em;
+}
+
 /* 引用块 */
 .vp-doc blockquote {
   margin: var(--blockquote-margin);
@@ -23,6 +44,9 @@
   position: relative;
 }
 
+.vp-doc blockquote > p + p {
+  margin-top: 16px;
+}
 /* 折叠标签 */
 details {
   margin: 1rem auto;
@@ -72,4 +96,70 @@ summary::after {
 }
 summary::-webkit-details-marker {
   display: none;
+}
+
+/* Pasted 20250522 */
+
+.vp-doc a {
+  text-decoration: none;
+}
+.vp-doc a:hover {
+  text-decoration: underline;
+}
+
+.vp-doc :not(pre) > code {
+  user-select: all;
+}
+
+.vp-doc :not(pre) > kbd {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 4px;
+  padding: 0 6px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  background-color: var(--vp-c-bg-alt);
+}
+
+/* 表格样式 */
+.vp-doc table p,
+.vp-doc ul,
+.vp-doc ol {
+  margin: 1rem 0;
+}
+.vp-doc tr:nth-child(2n) {
+  background-color: var(--table-evenrow-color);
+}
+
+.vp-doc tr:hover {
+  background-color: var(--table-focusrow-color);
+}
+
+.vp-doc th {
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid var(--table-border-color);
+  background-color: var(--table-th-bg-color);
+  color: var(--table-th-font-color);
+  border-bottom: 0;
+  text-align: left;
+  margin: 0;
+  padding: 13px 13px;
+}
+
+.vp-doc tr td {
+  border: 1px solid var(--table-border-color);
+  font-size: 1rem;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+.vp-doc tr th:first-child,
+.vp-doc tr td:first-child {
+  margin-top: 0;
+}
+
+.vp-doc tr th:last-child,
+.vp-doc tr td:last-child {
+  margin-bottom: 0;
 }

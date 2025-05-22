@@ -78,14 +78,6 @@ export default defineConfig({
   title: "MaraPython",
   description: "A VitePress Site",
   head: [
-    // [
-    //   "link",
-    //   {
-    //     rel: "apple-touch-icon",
-    //     sizes: "180x180",
-    //     href: "/favicon-180x180.png",
-    //   },
-    // ],
     [
       "link",
       {
@@ -104,10 +96,19 @@ export default defineConfig({
     //     href: "/favicon/favicon-180x180.png",
     //   },
     // ],
-    // ["link", { rel: "shortcut icon", href: "/favicon/favicon-16x16.ico" }],
+
+    // import font-awesome so you could use its icons on your website
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+      },
+    ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/favicon/logo.png",
     nav: [
       { text: "首页", link: "/" },
       {
@@ -134,9 +135,9 @@ export default defineConfig({
         text: "关于",
 
         items: [
-          { text: "本站", link: "/pages/dbaccf" },
-          { text: "开始", link: "/20.关于/20.关于 - 本站/02.本站 - 开始.md" },
-          { text: "写作", link: "/20.关于/20.关于 - 本站/05.本站 - 文章.md" },
+          { text: "本站", link: "/site/intro" },
+          { text: "开始", link: "/site/start" },
+          { text: "写作", link: "/site/compose" },
           {
             text: "文章",
             items: [
@@ -167,9 +168,10 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+
     outline: {
       level: [2, 4],
-      label: "文章目录",
+      label: "In this article",
     },
   },
   // 2. Features and Functions offered by Teek
