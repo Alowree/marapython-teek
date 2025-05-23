@@ -70,6 +70,11 @@ const teekConfig = defineTeekConfig({
       envId: "https://twikoo.marapython.com",
     },
   },
+  codeBlock: {
+    disabled: false, // 是否禁用新版代码块
+    collapseHeight: 700, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
+    copiedDone: (TkMessage: Message) => TkMessage.success("复制成功！"),
+  },
 });
 
 // https://vitepress.dev/reference/site-config
