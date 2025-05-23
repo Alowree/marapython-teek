@@ -48,7 +48,7 @@ const teekConfig = defineTeekConfig({
   },
   blogger: {
     name: "Alowree", // 博主昵称
-    avatar: "img/blogger-avatar.jpg", // 博主头像
+    avatar: "/img/blogger-avatar.jpg", // 博主头像
     slogan: "道阻且长，行则将至；行而不辍，未来可期", // 博主签名
     shape: "square", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转
   },

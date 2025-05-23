@@ -8,15 +8,15 @@ tk:
     - title: 市场营销
       description: 观察市场、产品、品牌和传播
       link: /10.市场营销/01.极简市场营销/
-      # imgUrl: /img/
+      imgUrl: /img/ghost.png
     - title: 亚马逊运营
       description: Amazon 基础操作和广告投放
       link: /pages/b30ff7/
-      # imgUrl: /img/
+      imgUrl: /img/ghost.png
     - title: 开发工具
       description: 使用各种 Shell 终端工具软件
       link: /pages/d858af/
-      # imgUrl: /img/
+      imgUrl: /img/ghost.png
 ## Following are VitePress default settings for index.md
 # hero:
 #   name: MaraPython
