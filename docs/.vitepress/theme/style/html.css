@@ -1,5 +1,7 @@
 :root {
+  --zero-main: #4f95fc;
   --zero-second-bg: #f1f3f8;
+  --bg-color: #fff;
   --main-font-color: #363636;
   --blockquote-border-left-color: #e3e8f7;
   --table-odd-row-color: #ededed;
@@ -7,6 +9,12 @@
   --table-border-color: var(--main-font-color);
   --table-th-background-color: #575c61;
   --table-th-font-color: #f3f3f3;
+  --details-text-color: rgba(68, 68, 68, 0.7);
+  /* 折叠框summary文字颜色（灰色） */
+  --details-background-color: #ebf9ed;
+  /* 折叠框summary背景色（青绿色） */
+  --details-border-color: #ebf9ed;
+  /* 折叠框边框色（绿色） */
 }
 
 /* h1-h6 headers */
@@ -57,58 +65,136 @@
 .vp-doc blockquote > p + p {
   margin-top: 16px;
 }
+
 /* 折叠标签 */
+
 details {
-  margin: 1rem auto;
-  padding: 0 1rem;
-  position: relative;
-  border: 1px solid #78909c;
-  border-radius: 5px;
-  color: #263238;
-  transition: background-color 0.15s;
-}
-/* details > :last-child { */
-/*   margin-bottom: 1rem; */
-/* } */
-/* details[open] { */
-/*   background-color: #fff; */
-/* } */
-details[open]::before {
-  opacity: 0.6;
+  margin: 1em 0;
+  border-radius: 4px;
+  background: var(--bg-color);
+  /* -webkit-transition: all 0.28s ease; */
+  /* -moz-transition: all 0.28s ease; */
+  /* -o-transition: all 0.28s ease; */
+  /* -ms-transition: all 0.28s ease; */
+  /* transition: all 0.28s ease; */
+  /* -moz-transition: all 0.28s ease; */
+  /* -webkit-transition: all 0.28s ease; */
+  /* -o-transition: all 0.28s ease; */
+
+  border: 1px solid var(--details-background-color);
+  border-top: 0px;
+  border-bottom: 0px;
 }
 
-summary {
-  /* padding: 1rem 2em 1rem 0; */
+details > summary {
   display: block;
-  position: relative;
-  /* font-size: 1.33em; */
-  font-weight: bold;
   cursor: pointer;
+  padding: 16px;
+  margin: -16px;
+  border-radius: 4px;
+  color: var(--details-text-color);
+  font-weight: 700;
+  position: relative;
+  line-height: normal;
 }
-summary::before,
-summary::after {
+
+details > summary {
+  background: var(--details-background-color);
+  border: 1px solid var(--details-background-color);
+}
+
+details > p {
+  padding: 0 16px;
+}
+/* 两道横 默认颜色：灰色 */
+details > summary::before,
+details > summary::after {
   width: 0.75em;
   height: 2px;
   position: absolute;
-  top: 50%;
-  right: 0;
   content: "";
-  background-color: currentColor;
-  text-align: right;
+  text-align: center;
+  top: 50%;
   transform: translateY(-50%);
+  right: 16px;
+  background-color: var(--details-text-color);
   transition: transform 0.2s ease-in-out;
 }
-summary::after {
+
+details[open] > summary:hover {
+  border: 1px solid var(--zero-main);
+}
+/* 一道横旋转成竖，组成【+】形状 */
+details > summary::after {
   transform: translateY(-50%) rotate(90deg);
 }
-[open] summary::after {
-  transform: translateY(-50%) rotate(180deg);
-}
-summary::-webkit-details-marker {
-  display: none;
+
+/* 设定标题的背景蓝绿和文字白色 */
+details > summary:hover {
+  background-color: var(--zero-main);
+  color: var(--bg-color);
+  border: 1px solid var(--zero-main);
 }
 
-/* Pasted 20250522 */
+/* hover 时加号的颜色：白色 */
+details > summary:hover::before,
+details > summary:hover::after {
+  position: absolute;
+  content: "";
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 16px;
+  background-color: var(--bg-color);
+}
+
+details summary:hover::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+details[open] {
+  border-radius: 4px;
+  border-color: var(--zero-main);
+  border: 1px solid var(--zero-main);
+  border-top: 0px;
+}
+
+details[open] > summary {
+  background-color: var(--zero-main);
+  color: var(--bg-color);
+}
+
+details[open] > summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+details[open] > summary::before,
+details[open] > summary::after {
+  position: absolute;
+  content: "";
+  text-align: center;
+  top: 50%;
+  right: 16px;
+  background-color: var(--bg-color);
+}
+
+details[open] > summary::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.custom-block {
+  padding: 0;
+}
+.custom-block.details summary {
+  margin: 0;
+}
+.custom-block.details {
+  border: 1px solid var(--details-background-color);
+}
+.custom-block.details[open] {
+  border: 1px solid var(--zero-main);
+}
 
 .vp-doc a {
   text-decoration: none;
