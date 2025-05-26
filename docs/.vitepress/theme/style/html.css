@@ -186,17 +186,16 @@ details[open] > summary::after {
   transform: translateY(-50%) rotate(180deg);
 }
 
-.custom-block {
-  padding: 0;
-}
 .custom-block.details summary {
   margin: 0;
 }
 .custom-block.details {
   border: 1px solid var(--details-background-color);
+  padding: 0;
 }
 .custom-block.details[open] {
   border: 1px solid var(--zero-main);
+  padding: 0;
 }
 
 .vp-doc a {
