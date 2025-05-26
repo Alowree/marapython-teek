@@ -90,12 +90,15 @@ details > summary {
   display: block;
   cursor: pointer;
   padding: 16px;
-  margin: -16px;
+  /* margin: -16px; */
   border-radius: 4px;
   color: var(--details-text-color);
   font-weight: 700;
   position: relative;
   line-height: normal;
+}
+.vp-doc summary {
+  margin: 16px 0 0;
 }
 
 details > summary {
