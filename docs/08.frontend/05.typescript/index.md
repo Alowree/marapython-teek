@@ -8,3 +8,7 @@ tags:
   - frontend
   - typescript
 ---
+
+TypeScript is a superset of JavaScript that adds static types to the language, enhancing the development experience by catching errors and providing fixes before code execution. It allows existing JavaScript code to work seamlessly without modification and compiles down to plain JavaScript, making it compatible with any browser or operating system.
+
+<!-- more -->
