@@ -12,6 +12,8 @@ import "vitepress-theme-teek/theme-chalk/tk-nav-blur.css"; // 导航栏毛玻璃
 import "vitepress-theme-teek/theme-chalk/tk-aside.css"; // 文章目录样式
 import "vitepress-theme-teek/theme-chalk/tk-doc-h1-gradient.css"; // 文档以及标题样式
 import "vitepress-theme-teek/theme-chalk/tk-mark.css"; // 文章 mark 标签样式
+// import "vitepress-theme-teek/theme-chalk/tk-index-rainbow.css";
+// import "vitepress-theme-teek/theme-chalk/tk-doc-fade-in.css";
 
 // 4.Import your own custom css files
 import "./style/index.css";

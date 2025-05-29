@@ -3,6 +3,8 @@ import { defineTeekConfig } from "vitepress-theme-teek/config";
 
 // Teek 主题配置
 const teekConfig = defineTeekConfig({
+  pageStyle: "segment-nav",
+  author: { name: "Alowree", link: "https://github.com/Alowree" },
   banner: {
     enabled: true,
     name: "MaraPython", // Banner 标题，默认读取 vitepress 的 title 属性
@@ -52,6 +54,12 @@ const teekConfig = defineTeekConfig({
     slogan: "道阻且长，行则将至；行而不辍，未来可期", // 博主签名
     shape: "square", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转
   },
+  docAnalysis: {
+    createTime: "2021-10-19",
+    statistics: {
+      provider: "busuanzi",
+    },
+  },
   vitePlugins: {
     autoFrontmatter: true,
     autoFrontmatterOption: {
@@ -63,17 +71,24 @@ const teekConfig = defineTeekConfig({
       collapsed: true, // 打开侧边栏 收缩/展开 功能
     },
   },
-  comment: {
-    provider: "twikoo", // 评论区提供者
-    // 评论区配置项，根据 provider 不同而不同，具体看对应官网的使用介绍
-    options: {
-      envId: "https://twikoo.marapython.com",
-    },
-  },
   codeBlock: {
     disabled: false, // 是否禁用新版代码块
     collapseHeight: 700, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
     copiedDone: (TkMessage: Message) => TkMessage.success("复制成功！"),
+  },
+  articleShare: { enabled: true },
+  comment: {
+    provider: "twikoo", // 评论区提供者
+    options: {
+      envId: "https://twikoo.marapython.com",
+    },
+  },
+  footerInfo: {
+    copyright: {
+      createYear: 2021,
+      suffix: "MaraPython",
+    },
+    customHtml: `<span id="runtime"></span>`, // 搭配 .vitepress/theme/helper/useRuntime.ts 使用
   },
 });
 
