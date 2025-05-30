@@ -49,22 +49,22 @@
 
 /* 文章目录 - 标题 */
 
-.content[data-v-3b0608b7] {
+.content {
   padding-top: 10px;
 }
-.outline-title[data-v-3b0608b7] {
-  font-size: 1.3em !important;
+.outline-title {
+  font-size: 1.3em;
 }
 
-#doc-outline-aria-label.outline-title[data-v-3b0608b7]::before {
-  margin-right: 0.4em !important;
-  font-family: "iconfont" !important;
+#doc-outline-aria-label.outline-title::before {
+  margin-right: 0.4em;
+  font-family: "iconfont";
   /* content: "\e6c5"; */
-  content: "\e60a" !important;
+  content: "\e60a";
   /* font-size: 1.3em; */
 }
 
-/* remove font-weight changes to avoid width glitches in English */
+/* remove font-weight changes on hover to avoid width glitches in English */
 .VPDoc .aside .aside-container .outline-link:hover {
   font-weight: 400;
   transition: color 0.3s;
