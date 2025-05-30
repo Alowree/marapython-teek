@@ -48,16 +48,26 @@
 }
 
 /* 文章目录 - 标题 */
+
+.content[data-v-3b0608b7] {
+  padding-top: 10px;
+}
 .outline-title[data-v-3b0608b7] {
-  font-size: 1.3em;
+  font-size: 1.3em !important;
 }
 
 #doc-outline-aria-label.outline-title[data-v-3b0608b7]::before {
-  margin-right: 0.4em;
-  font-family: "iconfont";
+  margin-right: 0.4em !important;
+  font-family: "iconfont" !important;
   /* content: "\e6c5"; */
-  content: "\e60a";
+  content: "\e60a" !important;
   /* font-size: 1.3em; */
+}
+
+/* remove font-weight changes to avoid width glitches in English */
+.VPDoc .aside .aside-container .outline-link:hover {
+  font-weight: 400;
+  transition: color 0.3s;
 }
 
 /* 引用块 */
