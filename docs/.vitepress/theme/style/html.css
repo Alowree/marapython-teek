@@ -52,13 +52,14 @@
   font-size: 1.3em;
 }
 
-.outline-title[data-v-3b0608b7]::before {
+#doc-outline-aria-label.outline-title[data-v-3b0608b7]::before {
   margin-right: 0.4em;
   font-family: "iconfont";
   /* content: "\e6c5"; */
   content: "\e60a";
   /* font-size: 1.3em; */
 }
+
 /* 引用块 */
 .vp-doc blockquote {
   margin: var(--blockquote-margin);
