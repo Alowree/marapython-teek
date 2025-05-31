@@ -14,6 +14,7 @@ import "vitepress-theme-teek/theme-chalk/tk-doc-h1-gradient.css"; // 文档以�
 import "vitepress-theme-teek/theme-chalk/tk-mark.css"; // 文章 mark 标签样式
 // import "vitepress-theme-teek/theme-chalk/tk-index-rainbow.css";
 // import "vitepress-theme-teek/theme-chalk/tk-doc-fade-in.css";
+import "vitepress-theme-teek/theme-chalk/tk-banner-desc-gradient.css";
 
 // 4.Import your own custom css files
 import "./style/index.css";

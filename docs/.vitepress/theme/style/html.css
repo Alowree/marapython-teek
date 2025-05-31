@@ -49,14 +49,15 @@
 
 /* 文章目录 - 标题 */
 
-.content {
-  padding-top: 10px;
-}
-.outline-title {
+/* .VPDoc .aside .aside-container .content { */
+/*   padding-top: 10px; */
+/* } */
+
+.VPDoc .aside .aside-container .outline-title {
   font-size: 1.3em;
 }
 
-#doc-outline-aria-label.outline-title::before {
+.VPDoc .aside .aside-container .outline-title::before {
   margin-right: 0.4em;
   font-family: "iconfont";
   /* content: "\e6c5"; */
