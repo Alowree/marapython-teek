@@ -39,8 +39,9 @@ const teekConfig = defineTeekConfig({
     typesShuffle: false, // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
   },
   post: {
+    postStyle: "list", // 文章列表风格
     excerptPosition: "top", // 文章摘要位置
-    showMore: true, // 是否显示更多按钮
+    showMore: false, // 是否显示更多按钮
     moreLabel: "阅读全文 >", // 更多按钮文字
     coverImgMode: "default", // 文章封面图模式
     showCapture: true, // 是否在摘要位置显示文章部分文字，当为 true 且不使用 frontmatter.describe 和 <!-- more --> 时，会自动截取前 400 个字符作为摘要
