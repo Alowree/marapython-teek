@@ -19,7 +19,6 @@ indent_size = 2
 max_line_lenght = 130
 trim_trailing_whitespce = true
 
-
 [*.md]
 max_line_lenght = off
 trim_trailing_whitespce = false

@@ -1,4 +1,6 @@
 {
+  "proseWrap": "preserve",
+  "printWidth": 130,
   "embeddedLanguageFormatting": "off",
   "overrides": [
     {
