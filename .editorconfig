@@ -5,7 +5,6 @@ root = true
 
 # Apply to all file types
 [*]
-
 charset = utf-8
 # Newline style (lf | cr | crlf)
 end_of_line = lf
