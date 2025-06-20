@@ -21,20 +21,31 @@ const teekConfig = defineTeekConfig({
     descFontSize: "1.4rem", // 描述字体大小
     descStyle: "types", // 描述信息风格：default 为纯文字渲染风格（如果 description 为数组，则取第一个），types 为文字打印风格，switch 为文字切换风格
     description: [
-      "Your time is limited, so don’t waste it living someone else’s life. — Steve Jobs",
-      "The way to get started is to quit talking and begin doing. — Walt Disney",
-      "I find that the harder I work, the more luck I seem to have. — Thomas Jefferson",
-      "Don’t watch the clock; do what it does. Keep going. — Sam Levenson",
-      "Strive not to be a success, but rather to be of value. — Albert Einstein",
-      "It always seems impossible until it’s done. — Nelson Mandela",
-      "You miss 100% of the shots you don’t take. — Wayne Gretzky",
-      "Dream big and dare to fail. — Norman Vaughan",
-      "Do one thing every day that scares you. — Eleanor Roosevelt",
+      "天行健，君子以自强不息。——《周易》",
+      "路漫漫其修远兮，吾将上下而求索。——屈原",
+      "业精于勤荒于嬉，行成于思毁于随。——韩愈",
+      "千里之行，始于足下。——老子",
+      "不积跬步，无以至千里；不积小流，无以成江海。——荀子",
+      "敏而好学，不耻下问。——孔子",
+      "知之者不如好之者，好之者不如乐之者。——孔子",
+      "海纳百川，有容乃大；壁立千仞，无欲则刚。——林则徐",
+      "志当存高远。——诸葛亮",
+      "学而不思则罔，思而不学则殆。——孔子",
+      "穷则独善其身，达则兼济天下。——《孟子》",
+      "君子坦荡荡，小人长戚戚。——《论语》",
+      "博观而约取，厚积而薄发。——苏轼",
+      "不以物喜，不以己悲。——范仲淹",
+      "会当凌绝顶，一览众山小。——杜甫",
+      "莫等闲，白了少年头，空悲切。——岳飞",
+      "纸上得来终觉浅，绝知此事要躬行。——陆游",
+      "长风破浪会有时，直挂云帆济沧海。——李白",
+      "三人行，必有我师焉。——《论语》",
+      "天生我材必有用。——李白",
     ], // 描述信息
     switchTime: 4000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
-    typesInTime: 100, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
-    typesOutTime: 50, // 删除一个文字的时间，单位：毫秒。descStyle 为 types 时生效
+    typesInTime: 200, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
+    typesOutTime: 100, // 删除一个文字的时间，单位：毫秒。descStyle 为 types 时生效
     typesNextTime: 800, // 打字与删字的间隔时间，单位：毫秒。descStyle 为 types 时生效
     typesShuffle: false, // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
   },
