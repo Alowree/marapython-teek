@@ -181,6 +181,7 @@ export default defineConfig({
           },
         ],
       },
+      { text: "联系", link: "/contactForm/" },
     ],
 
     // sidebar: [
@@ -193,9 +194,7 @@ export default defineConfig({
     //   },
     // ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/Alowree/marapython-teek" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/Alowree/marapython-teek" }],
 
     search: {
       provider: "local",
