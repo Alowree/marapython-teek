@@ -4,7 +4,7 @@ import { defineTeekConfig } from "vitepress-theme-teek/config";
 // Teek 主题配置
 const teekConfig = defineTeekConfig({
   pageStyle: "segment-nav",
-  author: { name: "Alowree", link: "https://github.com/Alowree" },
+  author: { name: "Alowree Xu", link: "https://github.com/Alowree" },
   banner: {
     enabled: true,
     name: "MaraPython", // Banner 标题，默认读取 vitepress 的 title 属性
@@ -61,9 +61,9 @@ const teekConfig = defineTeekConfig({
     pageSize: 20,
   },
   blogger: {
-    name: "Alowree", // 博主昵称
+    name: "Alowree Xu", // 博主昵称
     avatar: "/img/blogger-avatar.jpg", // 博主头像
-    slogan: "道阻且长，行则将至；行而不辍，未来可期", // 博主签名
+    slogan: "行而不辍，未来可期", // 博主签名
     shape: "square", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转
   },
   docAnalysis: {

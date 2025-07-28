@@ -26,6 +26,7 @@ body {
   margin: 24px 0;
   line-height: 1.5;
 }
+
 .vp-doc h2 {
   border-top: 1px dashed var(--vp-c-divider);
 }
@@ -33,15 +34,6 @@ body {
 .vp-doc h3 {
   margin: 32px 0 16px;
 }
-
-/* You have to import font-awesome before use */
-
-/* .vp-doc h3::before { */
-/*   font-family: var(--fa-style-family, "Font Awesome 6 Free"); */
-/*   content: "\f5fd"; */
-/*   color: skyblue; */
-/*   margin-right: 0.4rem; */
-/* } */
 
 /* You have to import iconfont before use */
 
