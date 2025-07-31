@@ -1,6 +1,4 @@
-/* import fonts from online resources */
-/* @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"); */
-/* @import url("https://fonts.font.im/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"); */
+/* import fonts from online resources, normally Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 /* import fonts from your website, typically in the public folder */
@@ -24,15 +22,14 @@
 
 :root {
   --vp-font-family-base:
-    "TsukuARdGothic Std", -apple-system, BlinkMacSystemFont, "Source Sans 3",
-    "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -apple-system, BlinkMacSystemFont, "Source Sans 3", "PingFang SC", "TsukuARdGothic Std", "Inter", ui-sans-serif, system-ui,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 :root {
   --vp-font-family-mono:
-    "JetBrainsMonoNL Nerd Font", "JetBrains Mono", "Consolas", ui-monospace,
-    "Menlo", "Monaco", "Liberation Mono", "Courier New", "YouYuan", monospace;
+    "JetBrainsMonoNL Nerd Font", "JetBrains Mono", "Consolas", ui-monospace, "Menlo", "Monaco", "Liberation Mono", "Courier New",
+    "YouYuan", monospace;
 }
 
 :root {
@@ -43,12 +40,9 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4324356 */
   src:
-    url("//at.alicdn.com/t/c/font_4324356_g4ss22n1n8i.woff2?t=1748576187919")
-      format("woff2"),
-    url("//at.alicdn.com/t/c/font_4324356_g4ss22n1n8i.woff?t=1748576187919")
-      format("woff"),
-    url("//at.alicdn.com/t/c/font_4324356_g4ss22n1n8i.ttf?t=1748576187919")
-      format("truetype");
+    url("//at.alicdn.com/t/c/font_4324356_g4ss22n1n8i.woff2?t=1748576187919") format("woff2"),
+    url("//at.alicdn.com/t/c/font_4324356_g4ss22n1n8i.woff?t=1748576187919") format("woff"),
+    url("//at.alicdn.com/t/c/font_4324356_g4ss22n1n8i.ttf?t=1748576187919") format("truetype");
 }
 .iconfont {
   font-family: "iconfont" !important;
