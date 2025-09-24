@@ -3,7 +3,7 @@
     "prettier": "3.5.3",
     "sass": "^1.89.2",
     "vitepress": "^1.6.4",
-    "vitepress-theme-teek": "1.4.3"
+    "vitepress-theme-teek": "1.5.0"
   },
   "packageManager": "pnpm@10.14.0",
   "scripts": {
