@@ -181,7 +181,6 @@ export default defineConfig({
           },
         ],
       },
-      { text: "联系", link: "/contactForm/" },
     ],
 
     // sidebar: [
