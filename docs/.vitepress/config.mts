@@ -75,6 +75,7 @@ const teekConfig = defineTeekConfig({
   vitePlugins: {
     autoFrontmatter: true,
     autoFrontmatterOption: {
+      permalinkType: "simple",
       globOptions: {
         ignore: ["**/00.目录页/**", "**/*目录.md"],
       },
