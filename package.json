@@ -1,9 +1,9 @@
 {
   "devDependencies": {
     "prettier": "3.5.3",
-    "sass": "^1.89.2",
+    "sass": "^1.97.1",
     "vitepress": "^1.6.4",
-    "vitepress-theme-teek": "1.5.2"
+    "vitepress-theme-teek": "1.5.4"
   },
   "packageManager": "pnpm@10.14.0",
   "scripts": {
