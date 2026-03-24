@@ -1,10 +1,12 @@
 import { defineConfig } from "vitepress";
 import { defineTeekConfig } from "vitepress-theme-teek/config";
 
-// Teek 主题配置
+// Teek 主题配置 {{{1
 const teekConfig = defineTeekConfig({
-  pageStyle: "segment-nav",
-  author: { name: "Alowree Xu", link: "https://github.com/Alowree" },
+  articleShare: { enabled: true },
+  author: { name: "Alowree XU", link: "https://github.com/Alowree" },
+
+  // {{{2
   banner: {
     enabled: true,
     name: "MaraPython", // Banner 标题，默认读取 vitepress 的 title 属性
@@ -21,6 +23,7 @@ const teekConfig = defineTeekConfig({
     descFontSize: "1.4rem", // 描述字体大小
     descStyle: "types", // 描述信息风格：default 为纯文字渲染风格（如果 description 为数组，则取第一个），types 为文字打印风格，switch 为文字切换风格
     description: [
+      // {{{3
       "天行健，君子以自强不息。——《周易》",
       "路漫漫其修远兮，吾将上下而求索。——屈原",
       "业精于勤荒于嬉，行成于思毁于随。——韩愈",
@@ -41,7 +44,7 @@ const teekConfig = defineTeekConfig({
       "长风破浪会有时，直挂云帆济沧海。——李白",
       "三人行，必有我师焉。——《论语》",
       "天生我材必有用。——李白",
-    ], // 描述信息
+    ], // }}}3 描述信息
     switchTime: 4000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
     typesInTime: 200, // 输出一个文字的时间，单位：毫秒。descStyle 为 types 时生效
@@ -49,22 +52,22 @@ const teekConfig = defineTeekConfig({
     typesNextTime: 800, // 打字与删字的间隔时间，单位：毫秒。descStyle 为 types 时生效
     typesShuffle: false, // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
   },
-  post: {
-    postStyle: "list", // 文章列表风格
-    excerptPosition: "top", // 文章摘要位置
-    showMore: false, // 是否显示更多按钮
-    moreLabel: "阅读全文 >", // 更多按钮文字
-    coverImgMode: "default", // 文章封面图模式
-    showCapture: true, // 是否在摘要位置显示文章部分文字，当为 true 且不使用 frontmatter.describe 和 <!-- more --> 时，会自动截取前 400 个字符作为摘要
-  },
-  page: {
-    pageSize: 20,
-  },
+  // }}}2
+
+  // bodyBgImg: {},
+
   blogger: {
-    name: "Alowree Xu", // 博主昵称
+    name: "Alowree XU", // 博主昵称
     avatar: "/img/blogger-avatar.jpg", // 博主头像
     slogan: "行而不辍，未来可期", // 博主签名
     shape: "square", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转
+  },
+
+  comment: {
+    provider: "twikoo", // 评论区提供者
+    options: {
+      envId: "https://twikoo.marapython.com",
+    },
   },
   docAnalysis: {
     createTime: "2021-10-19",
@@ -72,6 +75,30 @@ const teekConfig = defineTeekConfig({
       provider: "busuanzi",
     },
   },
+
+  footerInfo: {
+    copyright: {
+      createYear: 2021,
+      suffix: "MaraPython",
+    },
+    customHtml: `<span id="runtime"></span>`, // 搭配 .vitepress/theme/helper/useRuntime.ts 使用
+  },
+  // notice: {},
+  page: {
+    pageSize: 10,
+  },
+  pageStyle: "segment-nav",
+  post: {
+    postStyle: "list", // 文章列表风格
+    excerptPosition: "top", // 文章摘要位置
+    showMore: false, // 是否显示更多按钮
+    moreLabel: "阅读全文 >", // 更多按钮文字
+    coverImgMode: "default", // 文章封面图模式
+    showCapture: true,
+  },
+
+  sidebarTrigger: true,
+  // siteAnalytics: [],
   vitePlugins: {
     autoFrontmatter: true,
     autoFrontmatterOption: {
@@ -80,37 +107,16 @@ const teekConfig = defineTeekConfig({
         ignore: ["**/00.目录页/**", "**/*目录.md"],
       },
     },
-    sidebarOption: {
-      collapsed: true, // 打开侧边栏 收缩/展开 功能
-    },
-  },
-  codeBlock: {
-    disabled: false, // 是否禁用新版代码块
-    collapseHeight: 700, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
-    copiedDone: (TkMessage: Message) => TkMessage.success("复制成功！"),
-  },
-  articleShare: { enabled: true },
-  comment: {
-    provider: "twikoo", // 评论区提供者
-    options: {
-      envId: "https://twikoo.marapython.com",
-    },
-  },
-  footerInfo: {
-    copyright: {
-      createYear: 2021,
-      suffix: "MaraPython",
-    },
-    customHtml: `<span id="runtime"></span>`, // 搭配 .vitepress/theme/helper/useRuntime.ts 使用
   },
 });
+// }}}1
 
-// https://vitepress.dev/reference/site-config
+// VitePress Configurations {{{1
 export default defineConfig({
-  // 1. Features and Functions offered by VitePress
   title: "MaraPython",
   description: "A VitePress Site",
   head: [
+    // {{{2
     [
       "link",
       {
@@ -120,15 +126,6 @@ export default defineConfig({
         href: "/img/favicon.ico",
       },
     ],
-    // [
-    //   "link",
-    //   {
-    //     rel: "icon",
-    //     type: "image/png",
-    //     sizes: "16x16",
-    //     href: "/favicon/favicon-180x180.png",
-    //   },
-    // ],
 
     // import font-awesome so you could use its icons on your website
     [
@@ -138,9 +135,9 @@ export default defineConfig({
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
       },
     ],
-  ],
+  ], // 2}}}
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // {{{
     logo: "/favicon/logo.png",
     nav: [
       { text: "首页", link: "/" },
@@ -183,28 +180,14 @@ export default defineConfig({
         ],
       },
     ],
-
-    // sidebar: [
-    //   {
-    //     text: "Examples",
-    //     items: [
-    //       { text: "Markdown Examples", link: "/markdown-examples" },
-    //       { text: "Runtime API Examples", link: "/api-examples" },
-    //     ],
-    //   },
-    // ],
-
     socialLinks: [{ icon: "github", link: "https://github.com/Alowree/marapython-teek" }],
-
     search: {
       provider: "local",
     },
-
     outline: {
       level: [2, 4],
       label: "In this article",
     },
-  },
-  // 2. Features and Functions offered by Teek
+  }, // }}}
   extends: teekConfig,
 });

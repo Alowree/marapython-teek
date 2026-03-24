@@ -65,7 +65,6 @@ body {
 /* remove font-weight changes on hover to avoid width glitches in English */
 .VPDoc .aside .aside-container .outline-link:hover {
   font-weight: 400;
-  transition: color 0.3s;
 }
 
 /* 引用块 */

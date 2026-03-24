@@ -1,0 +1,3123 @@
+{
+  "campaigns": [
+    {
+      "budget": {
+        "budget": 200.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "140631743604970",
+      "dynamicBidding": {
+        "placementBidding": []
+      },
+      "endDate": "2014-08-29",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Pocket Kick",
+      "offAmazonSettings": {},
+      "startDate": "2014-08-15",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 200.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "274761652241969",
+      "dynamicBidding": {
+        "placementBidding": []
+      },
+      "endDate": "2014-12-31",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Pocket Kick Awareness",
+      "offAmazonSettings": {},
+      "startDate": "2014-08-14",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "195183246443297",
+      "dynamicBidding": {
+        "placementBidding": []
+      },
+      "endDate": "2015-07-22",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Double Spot test",
+      "offAmazonSettings": {},
+      "startDate": "2015-07-15",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 25.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "132882782834640",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2019-05-31",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise Holiday",
+      "offAmazonSettings": {},
+      "startDate": "2015-11-23",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 200.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "83485817629024",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2015-12-25",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Double Spot Holiday sale",
+      "offAmazonSettings": {},
+      "startDate": "2015-12-08",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "98810625715809",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2017-12-25",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Platform 2",
+      "offAmazonSettings": {},
+      "startDate": "2017-12-11",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "217785267586115",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2016-02-29",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Pocket Kick feb",
+      "offAmazonSettings": {},
+      "startDate": "2016-02-22",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "77843090777600",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2017-12-25",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Black Friday Pocket Kick",
+      "offAmazonSettings": {},
+      "startDate": "2017-12-11",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "35082690613672",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2017-12-25",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Black Friday SFQ-07",
+      "offAmazonSettings": {},
+      "startDate": "2017-12-11",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 100.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "153147983440044",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2017-12-31",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Black Friday Earbuds",
+      "offAmazonSettings": {},
+      "startDate": "2017-12-15",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "147362476219851",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2017-12-31",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Spot",
+      "offAmazonSettings": {},
+      "startDate": "2017-12-17",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 25.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "232110167707083",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "endDate": "2019-05-31",
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundFreaq Classic",
+      "offAmazonSettings": {},
+      "startDate": "2018-04-30",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "235049219012242",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Soundfreaq Store_SD_AO",
+      "offAmazonSettings": {},
+      "startDate": "2019-11-29",
+      "state": "ARCHIVED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "177012899375061",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 70,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 25,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Holiday Campaign Offer - 2023",
+      "offAmazonSettings": {},
+      "startDate": "2022-11-20",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "39859321345259",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Spot II - Bluetooth Speaker",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2026-02-11",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "198640182968864",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 150,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "shopperCohortBidding": [
+          {
+            "audienceSegments": [
+              {
+                "audienceId": "430778787414928818",
+                "audienceSegmentType": "BEHAVIOR_DYNAMIC"
+              }
+            ],
+            "percentage": 50,
+            "shopperCohortType": "AUDIENCE_SEGMENT"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Category 2026",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2026-02-25",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "302171985426082",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 25,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 35,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Back to School 2023",
+      "offAmazonSettings": {},
+      "startDate": "2023-08-25",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "494685371103906",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq10 | SP | Seasonal campaign | Manual product",
+      "offAmazonSettings": {},
+      "startDate": "2024-01-23",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "300805689582341",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq11 | SP | Seasonal campaign | Manual keywords",
+      "offAmazonSettings": {},
+      "startDate": "2024-01-23",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "494106484521023",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq11 | SP | Seasonal campaign | Manual product",
+      "offAmazonSettings": {},
+      "startDate": "2024-01-23",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "529541315688703",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq10 | SP | Seasonal campaign | Manual keywords",
+      "offAmazonSettings": {},
+      "startDate": "2024-01-22",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "461026034235981",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "New US = Old Stock - Manual",
+      "offAmazonSettings": {},
+      "startDate": "2024-01-30",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "409496378634045",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Phrase01",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-03-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "360334685494306",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Automatic | Close3",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-03-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "316647573864986",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-10 - Automatic",
+      "offAmazonSettings": {},
+      "startDate": "2024-03-13",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "560750996032282",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Soundfreaq - Branded keywords | Broad",
+      "offAmazonSettings": {},
+      "portfolioId": "111277474897396",
+      "startDate": "2024-03-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "482277849663472",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Product targeting | Category",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-03-15",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 5.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "411877995235795",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 120,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 120,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 120,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRise II - 低Bid",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-03-21",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 25.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "467598367377073",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Automatic - W",
+      "offAmazonSettings": {},
+      "startDate": "2024-03-25",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 5.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "353058515201056",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-10 - Category",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-05",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "384109009790607",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Automatic-NEW",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-05",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "355303831162208",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Clock Radio",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-04-02",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "507428441108165",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 150,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 80,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 250,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - clock radio 240407",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-04-07",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "462194132118913",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - auto 04",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-04-07",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "333413965202815",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - alarm clock with radio",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-04",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "283460774206849",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundriseII - Category - 02",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-05",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "297242071455046",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - TEST KW",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-08",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "288666731155481",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Automatic | Substitutes",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-04-10",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "522808308081577",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Longtail keywords | Phrase",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-04-10",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 80.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "452909245452827",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Exact - 01",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-15",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "523906484089903",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Soundrise II- clock radios for bedroom",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-21",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "555902786008223",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - alarm clock with wireless charging",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-21",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "309094772555682",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRise II - clock radios for bedroom",
+      "offAmazonSettings": {},
+      "startDate": "2024-04-21",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "365189357832453",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - ASIN 2404",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-04-22",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "417196724977652",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 160,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 110,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 200,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Category 05",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-05-11",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "339380800183265",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 200,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - auto 05 substitutes",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-05-17",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "549746816746914",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 300,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 400,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 600,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Automatic | Close 5",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-05-17",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "482134419759136",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundriseII - Category-wood",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-05-22",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "413999374386219",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRise II -Automatic - Wood",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-05-22",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "463068988291477",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Longtail| Phrase",
+      "offAmazonSettings": {},
+      "startDate": "2024-05-31",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "302812456508330",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Soundrise II - Sleep Sound Machines - Category",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-06",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "497918162310857",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 320,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 320,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 500,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Soundrise II - radio alarm clock -Phrase Black",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-06",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "319775506356600",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Soundrise II - radio alarm clock -Black",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-16",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "341408874033128",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Clock Radio - NEW",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-17",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "452155721279689",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Keywords Related to Category",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-20",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "406235640423495",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Soundfreaq - Portable speakers",
+      "offAmazonSettings": {},
+      "portfolioId": "111277474897396",
+      "startDate": "2024-06-24",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 80.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "403562018244585",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Clock radio | Phrase",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-06-21",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 35.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "518462684278549",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II | Alarm Clock Radio | Phrase",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-21",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "410274983030353",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - soundfreaq",
+      "offAmazonSettings": {},
+      "portfolioId": "111277474897396",
+      "startDate": "2024-06-21",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "540058646556609",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Clock Radio -Excat",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-28",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 100.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "419725574536177",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Excat Keywords",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-28",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "421771500317644",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Auto6",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-06-28",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "544726366591183",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - alarm clock radio- Excat",
+      "offAmazonSettings": {},
+      "startDate": "2024-06-28",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "359083271820032",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Clock Radio  for Bedroom - Exact",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-06-28",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "360166617031753",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 80,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Category 07",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-07-24",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 60.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "432217359048590",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 350,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 300,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SoundRiseII - Automatic08",
+      "offAmazonSettings": {},
+      "startDate": "2024-08-05",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "327476462334589",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Auto",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2024-08-11",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "562527209616053",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - M -Category",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2024-08-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "425735269960281",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - M - Related Keywords",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2024-08-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "374485813725077",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 450,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Auto 08",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-08-15",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "555924970697914",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 200,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 280,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Clock Radio for Bedroom - CPO",
+      "offAmazonSettings": {},
+      "startDate": "2024-08-23",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "311189320898842",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 150,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Auto 02",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2024-08-26",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "320763371499175",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - clock radio",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-08-30",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "457146087131730",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 70,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - competing brands",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-09-03",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "514507203219752",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Keywords",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2024-09-02",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "560782028922251",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - alarm clock",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-09-04",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "385840902232219",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 180,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 180,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Related Keywords - Manual",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-09-04",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 25.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "524219627124312",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - asins big brands",
+      "offAmazonSettings": {},
+      "startDate": "2024-09-10",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "437460379790430",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - asins small brands",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-09-09",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "447917673764040",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 10,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Exact Keywords",
+      "offAmazonSettings": {},
+      "startDate": "2024-09-24",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "537011149894007",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Group Keywords",
+      "offAmazonSettings": {},
+      "startDate": "2024-11-07",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "352928002172048",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 65,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 110,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 50,
+            "placement": "SITE_AMAZON_BUSINESS"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Category 241107",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2024-11-07",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 10.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "354933254297289",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 200,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 150,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 180,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Category 11",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-11-15",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "538851717992939",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Auto 1",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2024-12-02",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "352934692011243",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II-Group Keywords-Related to Brand",
+      "offAmazonSettings": {},
+      "startDate": "2024-11-27",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "471031654934555",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 150,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - clock radio 241128",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2024-11-27",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "534400973308235",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 10,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Soundfreaq",
+      "offAmazonSettings": {},
+      "portfolioId": "111277474897396",
+      "startDate": "2024-12-01",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "345329502191548",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Keywords Group - category",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2024-11-20",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "430575926450464",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "AUTO_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II -Keywords Related to Gift",
+      "offAmazonSettings": {},
+      "startDate": "2024-12-03",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "409682452152934",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 keywords 241201",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2024-12-01",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "513643208489654",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 34,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 67,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - ASIN 241202",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2024-12-02",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "287491303945300",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 30,
+            "placement": "SITE_AMAZON_BUSINESS"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 auto 2",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2024-12-16",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "383852774189183",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 asin targeting - big brands",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2024-12-30",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "291160970734483",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 category under 3 stars",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2024-12-29",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "543233770794478",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 category 250101",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-01-01",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "283608565157094",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Big Brand Asins",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-01-03",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "327250871263660",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 70,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - new keywords",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2025-01-19",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "501401167594827",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 auto 3",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-01-13",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "417218482765656",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - ASIN2",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-02-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "316099082545991",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Keywords 2",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-02-09",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "423508073808900",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 15,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 bluetooth speaker 250207",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-02-07",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "433196926357613",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 15,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 competing brands",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-02-24",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "340712031426133",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 15,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq-18 attributes",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-02-24",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "345205510952287",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 15,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - competing brands",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-02-24",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 50.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "373255738233967",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ18-Small Asin Tageting- Excat",
+      "offAmazonSettings": {},
+      "startDate": "2025-03-11",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "507735828451939",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq18- speakers bluetooth wireless",
+      "offAmazonSettings": {},
+      "startDate": "2025-03-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "324608676764761",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq18-portable bluetooth speakers",
+      "offAmazonSettings": {},
+      "startDate": "2025-03-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 15.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "443752979314846",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "sfq18-keywords group - new",
+      "offAmazonSettings": {},
+      "startDate": "2025-03-12",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "533893107012367",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 34,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 69,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - ASIN 2503",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2025-03-27",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "463884007965138",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 33,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 65,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - ASIN 2510",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2025-03-27",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "425446833199815",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 150,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 130,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 170,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Category 250324",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2025-03-24",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "295731205240183",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ18-M-Broad",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-03-28",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "555502753299666",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ18-Excat",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-04-02",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "405432452890451",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 34,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 category 250328",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-03-28",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "466823571883003",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 160,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 90,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 180,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Keywords 001",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-04-26",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 1.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "506958061036478",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "test1",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-04-27",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "541884581528401",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 170,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 250,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Keywords 003",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-04-26",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "316439307910875",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 200,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_PRODUCT_PAGE"
+          },
+          {
+            "percentage": 240,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Keywords 002",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-04-26",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "434326818218701",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 33,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - ASIN 3",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-04-27",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 60.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "388673907166783",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II",
+      "offAmazonSettings": {},
+      "startDate": "2025-04-25",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "514533915120581",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 10,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Keyword Group - brands",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-05-23",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "455642648287925",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 brand asins",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-05-23",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "552632502492991",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 50,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 100,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Charge Rise II - Auto 250526",
+      "offAmazonSettings": {},
+      "portfolioId": "83072925674228",
+      "startDate": "2025-05-26",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "364187189784431",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 keywords low bid - broad",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-05-22",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "550021740698188",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 33,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 80,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 bluetooth speaker 250523",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-05-23",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "314962034710773",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 33,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 66,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Auto 250603",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-06-03",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "508966479876860",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          },
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_TOP"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - Stereo Shelf System",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2025-06-13",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "287363581921714",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 60,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 30,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "MANUAL"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "Sound Rise II - competing brands 2",
+      "offAmazonSettings": {},
+      "portfolioId": "214510004582005",
+      "startDate": "2025-09-24",
+      "state": "ENABLED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "299798265453184",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 - Gift Keywords Group",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-11-27",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 20.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "408998765277419",
+      "dynamicBidding": {
+        "placementBidding": [],
+        "shopperCohortBidding": [
+          {
+            "audienceSegments": [
+              {
+                "audienceId": "412978094962770620",
+                "audienceSegmentType": "BEHAVIOR_DYNAMIC"
+              }
+            ],
+            "percentage": 10,
+            "shopperCohortType": "AUDIENCE_SEGMENT"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Auto 2511",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-11-27",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "AUTO"
+    },
+    {
+      "budget": {
+        "budget": 30.0,
+        "budgetType": "DAILY"
+      },
+      "campaignId": "325943433788645",
+      "dynamicBidding": {
+        "placementBidding": [
+          {
+            "percentage": 40,
+            "placement": "PLACEMENT_TOP"
+          },
+          {
+            "percentage": 20,
+            "placement": "PLACEMENT_REST_OF_SEARCH"
+          }
+        ],
+        "strategy": "LEGACY_FOR_SALES"
+      },
+      "marketplaceBudgetAllocation": "MANUAL",
+      "name": "SFQ-18 Keywords related to gifts",
+      "offAmazonSettings": {},
+      "portfolioId": "186284338375246",
+      "startDate": "2025-11-27",
+      "state": "PAUSED",
+      "tags": {},
+      "targetingType": "MANUAL"
+    }
+  ],
+  "totalResults": 131
+}
