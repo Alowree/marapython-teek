@@ -165,7 +165,7 @@ export default defineConfig({
         text: "关于",
 
         items: [
-          { text: "本站", link: "/site/intro" },
+          { text: "本站", link: "/site/introduction" },
           { text: "开始", link: "/site/start" },
           { text: "写作", link: "/site/compose" },
           {
