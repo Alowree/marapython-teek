@@ -1,6 +1,5 @@
 // .vitepress/theme/index.ts
-// 1.组件导入
-import Teek, { en } from "vitepress-theme-teek";
+import Teek from "vitepress-theme-teek";
 
 // 2.样式导入
 import "vitepress-theme-teek/index.css";
@@ -19,9 +18,6 @@ import "vitepress-theme-teek/theme-chalk/tk-banner-desc-gradient.css";
 // 4.Import your own custom css files
 import "./style/index.css";
 
-import TeekLayoutProvider from "./components/TeekLayoutProvider.vue";
-
 export default {
   extends: Teek,
-  Layout: TeekLayoutProvider,
 };
