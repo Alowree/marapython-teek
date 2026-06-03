@@ -1,6 +1,6 @@
 ---
 date: 2026-02-26
-title: 'NeoMutt Tutorial 11: Basic IMAP Setup'
+title: "NeoMutt Tutorial 11: Basic IMAP Setup"
 permalink: /pages/neomutt-basic-imap
 categories:
   - Tool
@@ -28,12 +28,6 @@ In this tutorial, you will:
 
 ```bash
 brew install neomutt
-```
-
-### Linux (Debian/Ubuntu)
-
-```bash
-sudo apt install neomutt
 ```
 
 ### Linux (Arch)
