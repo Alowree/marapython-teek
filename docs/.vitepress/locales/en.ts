@@ -74,7 +74,12 @@ export default defineConfig({
     ],
     editLink: {
       text: "Edit this page on GitHub",
-      pattern: "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
+      pattern:
+        "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
+    },
+    logo: "/favicon/logo.png",
+    search: {
+      provider: "local",
     },
   },
 });

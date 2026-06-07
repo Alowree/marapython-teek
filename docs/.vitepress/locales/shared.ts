@@ -144,12 +144,5 @@ export default defineConfig({
     lineNumbers: true,
   },
 
-  // https://vitepress.dev/reference/default-theme-config
-  themeConfig: {
-    logo: "/favicon/logo.png",
-    search: {
-      provider: "local",
-    },
-  },
   extends: teekConfig,
 });

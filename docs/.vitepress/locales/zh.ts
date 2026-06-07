@@ -72,5 +72,9 @@ export default defineConfig({
         ],
       },
     ],
+    logo: "/favicon/logo.png",
+    search: {
+      provider: "local",
+    },
   },
 });
