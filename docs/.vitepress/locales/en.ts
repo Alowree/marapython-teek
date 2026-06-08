@@ -78,8 +78,5 @@ export default defineConfig({
         "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
     },
     logo: "/favicon/logo.png",
-    search: {
-      provider: "local",
-    },
   },
 });
